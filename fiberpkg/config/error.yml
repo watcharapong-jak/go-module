@@ -1,0 +1,80 @@
+success:
+  code: "0000"
+  statusCode: "200"
+  th: "สำเร็จ"
+  en: "success"
+
+template:
+  code: "9999"
+  th: "%s"
+  en: "%s"
+
+# start with 99xx
+internal:
+  general:
+    code: "9900"
+    th: "ขออภัย ระบบไม่สามารถดำเนินการได้ในขณะนี้ กรุณาลองใหม่อีกครั้ง"
+    en: "System cannot process this request at the moment. Please try again later."
+  bad_request:
+    code: "9901"
+    th: "ขออภัย ระบบไม่สามารถดำเนินการได้ในขณะนี้ กรุณาลองใหม่อีกครั้ง"
+    en: "System cannot process this request at the moment. Please try again later."
+  internal_server_error:
+    code: "9903"
+    th: "ขออภัย ระบบไม่สามารถดำเนินการได้ในขณะนี้ กรุณาลองใหม่อีกครั้ง"
+    en: "System cannot process this request at the moment. Please try again later."
+  database_error:
+    code: "9904"
+    th: "ขออภัย ระบบไม่สามารถดำเนินการได้ในขณะนี้ กรุณาลองใหม่อีกครั้ง"
+    en: "System cannot process this request at the moment. Please try again later."
+  timeout:
+    code: "9905"
+    th: "ขออภัย ระบบไม่สามารถดำเนินการได้ในขณะนี้ กรุณาลองใหม่อีกครั้ง"
+    en: "System cannot process this request at the moment. Please try again later."
+  parking_slot_not_available:
+    code: "9006"
+    th: "ช่องจอดรถไม่ว่างในขณะนี้"
+    en: "Parking Slot Not Available"
+  license_plate_invalid:
+    code: "9007"
+    th: "ไม่มีหมายเลขทะเบียนรถที่จอดอยู่ในขณะนี้"
+    en: "There is no license plate number parked in the parking lot."
+  pick_up_number_not_use:
+    code: "9008"
+    th: "ไม่มีหมายเลขรับรถที่ใช้อยู่ในขณะนี้"
+    en: "No pick up number in use."
+  booking_duplicate:
+    code: "9009"
+    th: "จองที่จอดรถซ้ำ"
+    en: "Booking Duplicate"
+
+feature:
+  auth:
+    otp_invalid:
+      code: "1010"
+      th: "OTP ไม่ถูกต้อง"
+      en: "OTP invalid"
+    phone_invalid:
+      code: "1011"
+      th: "รูปแบบเบอร์โทรศัพท์ของคุณไม่ถูกต้อง"
+      en: "Phone Number Invalid Format."
+    phone_duplicated:
+      code: "1012"
+      th: "เบอร์โทรศัพท์ของคุณซ้ำ"
+      en: "Phone duplicated"
+    send_sms:
+      code: "1013"
+      th: "ขออภัย ระบบไม่สามารถดำเนินการได้ในขณะนี้ กรุณาลองใหม่อีกครั้ง"
+      en: "System cannot process this request at the moment. Please try again later."
+    member_not_found:
+      code: "1014"
+      th: "ไม่พบสมาชิกที่เปิดเมมเบอร์กับเบอร์นี้"
+      en: "Member Not Found with Phone Number"
+    please_verify_otp:
+      code: "1015"
+      th: "กรุณายืนยัน otp ก่อนเริ่มต้นใช้งาน"
+      en: "Please Verify OTP Before Starting to Use."
+    already_verify_otp:
+      code: "1016"
+      th: "เบอร์โทรศัพท์นี้ ได้ยืนยัน otp แล้ว"
+      en: "Already Verify OTP."
