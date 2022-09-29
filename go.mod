@@ -1,4 +1,4 @@
-module go-module-101
+module go-module
 
 go 1.18
 
